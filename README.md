@@ -1,2 +1,6 @@
 # CosmosPersona
 for fun :D
+
+Play at: https://iseej.github.io/CosmosPersona/
+
+Please do not use my code, pictures without permission! I'm happy to share this with you just please please let me know first! This is my first project and it took me nearly a year to finish! I hope you like it!!!
