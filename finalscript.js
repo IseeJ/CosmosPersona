@@ -1,6 +1,3 @@
-// Please do not use my code, pictures without permission! I'm happy to share this with you just please please let me know first!
-// took me a year to finish this project and all I had then was python knowledge lol
-
 const questions = [
     {
         question: "Q1/12: You're taking the bus on your way back home. It's been a loooong day, what are you thinking about?",
@@ -199,40 +196,40 @@ const resultOptions = {
         image: "4nebula.png"
     },
     "ISTP": {
-        image: "5comet.PNG"
+        image: "5comet.png"
     },
     "ISFP": {
-        image: "6ST.PNG"
+        image: "6ST.png"
     },
     "INFP": {
-        image: "7DM.PNG"
+        image: "7DM.png"
     },
     "INTP": {
-        image: "8meteor.PNG"
+        image: "8met.png"
     },
     "ESTP": {
-        image: "9BH.PNG"
+        image: "9BH.png"
     },
     "ESFP": {
-        image: "10Sn.PNG"
+        image: "10Sn.png"
     },
     "ENFP": {
-        image: "11Grav.PNG"
+        image: "11Grav.png"
     },
     "ENTP": {
-        image: "12hand.PNG"
+        image: "12hand.png"
     },
     "ESTJ": {
-        image: "13sat.PNG"
+        image: "13sat.png"
     },
     "ESFJ": {
-        image: "14sun.PNG"
+        image: "14sun.png"
     },
     "ENFJ": {
-        image: "15gal.PNG"
+        image: "15gal.png"
     },
     "ENTJ": {
-        image: "16rocket.PNG"
+        image: "16rocket.png"
     },
 
 };
