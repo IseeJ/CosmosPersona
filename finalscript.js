@@ -176,7 +176,7 @@ const questions = [
                 text: "Wait...was that Bob?",
             },
             U: {
-                text: "Next time? Do I have to go through this again?!",
+                text: "Oh no...Do I have to go through this again?",
             },
         },
     },
