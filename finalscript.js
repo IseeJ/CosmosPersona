@@ -98,11 +98,11 @@ const questions = [
         },
     },
     {
-        question: "Q8/12: Suddenly, another robot glides in, it whispers something to the cats that makes them stop.",
+        question: "Q8/12: Suddenly, the robot glides in, it whispers something to the cats that makes them stop.",
         image: "images/Q8.gif",
         answers: {
             E: {
-                text: "Bob!! Thank you! I knew you would come to help me, my robotic friend!",
+                text: "Bob!! Thank you! You come to save me, right?",
                 scores: { E: +1, I: 0 },
             },
             I: {
@@ -112,7 +112,7 @@ const questions = [
         },
     },
     {
-        question: "Q9/12: 'EXTERMINATE EXTERMINATE!!' the cats charges in with a giant vacuum cleaner!!",
+        question: "Q9/12: The robot transforms into a giant vacuum cleaner, the cats use it to point at you!",
         image: "images/Q9.gif",
         answers: {
             J: {
@@ -134,14 +134,14 @@ const questions = [
                 scores: { F: +1, T: 0 },
             },
             T: {
-                text: "Get the Mars clock, turn it and you can time travel!",
+                text: "Get the Mars watch, turn it and you can time travel!",
                 scores: { F: 0, T: +1 },
             },
         },
 
     },
     {
-        question: "Q11/12: Suddenly that shop owner transforms into a giant cat! 'No where to run, human!!' You fly off the ground and spiral into the vacuum!!!",
+        question: "Q11/12: The giant vacuum cleaner suddenly emerges infront of you! You're sucked into its vortex!!!",
         image: "images/Q11.gif",
         answers: {
             S: {
@@ -155,7 +155,7 @@ const questions = [
         },
     },
     {
-        question: "Q12/12: You blink twice and find yourself back in the bus. 'Are you alright? You've been screaming for awhile' the ticket inspector asks'",
+        question: "Q12/12: After a moment of darkness, you find yourself back in the bus. 'Are you alright?' the ticket inspector asks'",
         image: "images/Q12.gif",
         answers: {
             I: {
@@ -169,7 +169,7 @@ const questions = [
         },
     },
     {
-        question: "'Those Catsmonauts are sure tough, huh? You gotta be more prepared next time, kid!' \n the inspector chuckles. When you look up, he's already gone. \n You glance outside the window, darkness creeps in as the bus enters another tunnel...",
+        question: "When you look up again, the inspector's already gone. You glance outside the window, darkness creeps in as the bus enters another tunnel...",
         image: "images/Q13.gif",
         answers: {
             K: {
@@ -359,4 +359,5 @@ function restartQuiz() {
 document.getElementById('restart-button').addEventListener('click', restartQuiz);
 
 displayQuestion();
+
 
