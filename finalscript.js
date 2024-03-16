@@ -155,7 +155,7 @@ const questions = [
         },
     },
     {
-        question: "Q12/12: After a moment of darkness, you find yourself back in the bus. 'Are you alright?' the ticket inspector asks'",
+        question: "Q12/12: After a moment of darkness, you find yourself back in the bus. 'Are you alright?' the ticket inspector asks",
         image: "images/Q12.gif",
         answers: {
             I: {
