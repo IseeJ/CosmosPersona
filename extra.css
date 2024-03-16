@@ -1,0 +1,302 @@
+body {
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #ffb997;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000;
+    /*hight: 100vd;;*/
+    
+}
+
+.dark {
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #843b62;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000;
+    /*hight: 100vd;;*/
+    
+}
+
+.quiz-container {
+    font-family: 'Comfortaa', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    background-color: #ffb997;
+    color: #0b032d;
+    padding: 20px;
+    border-radius: 10px;
+   /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);*/
+    width: 90%; /* Set width to 90% of the viewport */
+    max-width: 400px; /* Set max-width to 400px */
+    font-weight: bold; 
+}
+
+.dark-container {
+    font-family: 'Comfortaa', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    background-color: #843b62;
+    color: #ffb997;
+    padding: 20px;
+    border-radius: 10px;
+   /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);*/
+    width: 90%; /* Set width to 90% of the viewport */
+    max-width: 400px; /* Set max-width to 400px */
+    font-weight: bold; 
+}
+
+
+h1 {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 28px;
+    font-weight: bold; 
+
+}
+p{
+    font-size: 20px;
+}
+
+.large-rectangular {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    width: 80%;
+    font-size: 20px;
+    max-width: 400px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    background-color: #843b62;
+    color: #fff;
+    border: none;
+    /*border: 2px solid #333;*/
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.large-rectangular:hover {
+    background-color: #f7e6dd;
+    color: #000000;
+}
+
+
+#result {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: transparent;
+    /*border: 2px solid #ddd;
+    border-radius: 5px;*/
+    display: none;
+    width: 90%; /* Set width to 90% of the viewport */
+    max-width: 400px; /* Set max-width to 400px */
+}
+
+
+#quiz p{
+    font-size: 22px;
+    margin: 10px 0;
+
+}
+#result p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#quiz {
+    /* Add your other styles here */
+    font-size: 24px;
+}
+
+#quiz img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    max-height: 300px; /* Set a maximum height to prevent excessively tall images */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: auto; /* Center the image horizontally */
+    font-size: 24px;
+}
+
+/* Adjust the size of the question images */
+question-image {
+    max-width: 360px;
+    height: auto;
+    align-items: center;
+    margin: 4px;
+}
+
+
+.result-content {
+    display: flex;
+    justify-content: space-between; /* Distribute content evenly */
+    align-items: center; /* Center vertically */
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.result-text {
+    flex-grow: 1; /* Allow text to expand and take available space */
+}
+
+.result-image-container {
+    margin-top: 20px; /* Adjust as needed */
+    text-align: center;
+    align-items: center;
+}
+
+.result-image img {
+    max-width: 360px;
+    height: auto;
+    align-items: center;
+    margin: 4px;
+    margin-top: 20px;
+}
+
+
+.start-button {
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #843b62; 
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+    background-color: #ffffff; /* Darker green */
+    color: #090808;
+}
+
+
+.top-image {
+    width: 100%;
+    /*max-height: 200px;*/
+    object-fit: cover; /* To maintain aspect ratio */
+}
+
+.do-not-press-button {
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #f46b6b; /* Red */
+    color: #fff;
+    padding: 20px; /* Adjust padding */
+    border: none;
+    border-radius: 50%; /* Make it a circle */
+    cursor: pointer;
+    font-size: 14px; /* Adjust font size */
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none; /* Remove default link underline */
+    width: 100px; /* Set width to maintain circular shape */
+    height: 100px; /* Set height to maintain circular shape */
+    line-height: 1.5; /* Adjust line height */
+    text-align: center; /* Horizontally center content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+
+
+.do-not-press-button:hover {
+    background-color: #bd2828; /* Darker red on hover */
+}
+
+/* Target all anchor elements */
+a {
+    font-size: 20px;
+    color: #4b2d2d; /* Change to the desired color */
+}
+
+a:hover {
+    color: #ffffff; /* Change to the desired color */
+}
+
+
+a.no-underline {
+    color: #000000; /* Change to the desired color */
+    text-decoration: none;
+}
+
+a.no-underline:hover {
+    color: #000000; /* Change to the desired color */
+    text-decoration: none;
+}
+
+.hover-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+  
+.tooltip {
+    visibility: hidden;
+    width: 200px;
+    font-size: 10px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+  
+.hover-container:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+footer {
+    text-align: center;
+}
+  
+footer p {
+    font-size: 10px; 
+    color: #843b62;
+}
+
+
+
+/*more magic*/
+/* for the container */
+.container {
+    position: relative;
+    display: inline-block; /* Ensure the container wraps around the image */
+  }
+  
+  /* for the image */
+.top-image2 {
+    display: block;
+    width: 100%; /* Ensure the image fills its container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* for the invisible button */
+.invisible-button {
+    position: absolute;
+    top: 170px; 
+    left: 300px; 
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    outline: none;
+}
