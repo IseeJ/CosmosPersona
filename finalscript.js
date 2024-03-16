@@ -42,7 +42,7 @@ const questions = [
         },
     },
     {
-        question: "Q4/12: Amidst the surprise, your eyes caught something dritfing through the darkness.",
+        question: "Q4/12: Amidst the surprise, your eyes caught something drifting pass the window.",
         image: "images/Q4.gif",
         answers: {
             F: {
@@ -141,7 +141,7 @@ const questions = [
 
     },
     {
-        question: "Q11/12: The giant vacuum cleaner suddenly emerges infront of you! You're sucked into its vortex!!!",
+        question: "Q11/12: The giant vacuum cleaner suddenly emerges in front of you! You're sucked into its vortex!!!",
         image: "images/Q11.gif",
         answers: {
             S: {
