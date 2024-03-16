@@ -1,3 +1,5 @@
+// please do not use my source code without my permission, I put a lot of effort into it and please do let me know if you want to clone it, use it for your project, I begggg
+
 const questions = [
     {
         question: "Q1/12: You're taking the bus on your way back home. It's been a loooong day, what are you thinking about?",
