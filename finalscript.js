@@ -165,7 +165,7 @@ const questions = [
                 scores: { E: 0, I: +1 },
             },
             E: {
-                text: "You won't beleive it...I think I just had the wildest dream ever! *tell him about your space adventure*",
+                text: "You won't believe it...I think I just had the wildest dream ever! *tell him about your space adventure*",
                 scores: { E: +1, I: 0 },
             },
         },
