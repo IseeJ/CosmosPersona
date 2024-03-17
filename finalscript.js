@@ -16,7 +16,7 @@ const questions = [
         },
     },
     {
-        question: "Q2/12: You look outside the windows, seems like it's going to rain soon. Suddenly everything turn into darkness!!",
+        question: "Q2/12: You look outside the windows, seems like it's going to rain soon. Suddenly everything turns into darkness!!",
         image: "images/Q2.gif",
         answers: {
             J: {
@@ -44,7 +44,7 @@ const questions = [
         },
     },
     {
-        question: "Q4/12: Amidst the surprise, your eyes caught something drifting pass the window.",
+        question: "Q4/12: Amidst the surprise, your eyes catch something drifting pass the window.",
         image: "images/Q4.gif",
         answers: {
             F: {
