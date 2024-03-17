@@ -17,8 +17,10 @@
             <script>
                 function checkPassword() {
                 var password = prompt("What did you just touch?!");
+                var inputPasswordLower = password.toLowerCase();
+                var validPasswordLower = "meteorite";
         
-                if (password === "Meteorite") {
+                if (inputPasswordLower === validPasswordLower) {
                     window.location.href = "egg.html";
                 } else {
                     alert("Incorrect. Womp Womp");
