@@ -213,22 +213,29 @@ question-image {
 /* Target all anchor elements */
 a {
     font-size: 20px;
-    color: #4b2d2d; /* Change to the desired color */
+    color: #4b2d2d;
 }
 
 a:hover {
-    color: #ffffff; /* Change to the desired color */
+    color: #ffffff; 
 }
 
 
 a.no-underline {
-    color: #000000; /* Change to the desired color */
+    color: #000000; 
     text-decoration: none;
 }
 
 a.no-underline:hover {
-    color: #000000; /* Change to the desired color */
+    color: #000000; 
     text-decoration: none;
+}
+
+a.bright{
+    color:  #ffb997;
+}
+a.bright:hover {
+    color: #ffffff;
 }
 
 .hover-container {
