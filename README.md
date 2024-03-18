@@ -1,7 +1,9 @@
 # CosmosPersona
 
 Made by I-see Warisa Jaidee
-for fun :D
+
+This project is license and you must not use it without permission!
+
 
 Play at: https://iseej.github.io/CosmosPersona/
 
