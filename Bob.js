@@ -13,8 +13,8 @@ const questions = [
             U: {
                 text: "Here we go again...Where am I?",
                 scores: { U: +1, C: 0 },
-            },
-        },
+            }
+        }
     },
     {
         question: "'You! You're not suposed to be here!'",
@@ -27,8 +27,8 @@ const questions = [
             U: {
                 text: "I was told by the creator to find an easter egg, any ideas?",
                 scores: { U: +1, C: 0 },
-            },
-        },
+            }
+        }
     },
     {
         question: "'An easter egg?! Wow, my boss really need to touch some grass with all these free time in her hands...'",
@@ -41,8 +41,8 @@ const questions = [
             C: {
                 text: "lol I know right, she must be really bored..",
                 scores: { U: 0, C: +1 },
-            },
-        },
+            }
+        }
     },
     {
         question: "'To be honest, I have no idea. Where do people normally keep eggs?'",
@@ -55,8 +55,8 @@ const questions = [
             U: {
                 text: "You know you're a bad liar, right?",
                 scores: { U: +1, C: 0 },
-            },
-        },
+            }
+        }
     },
     {
         question: "'Fine! Fine! She asked me to keep the secret! There... one of those boxes! Gosh, I don't get paid enough for this...'",
@@ -69,9 +69,9 @@ const questions = [
             C: {
                 text: "Open 'I forgot I made these' box",
                 scores: { U: 0, C: +1 },
-            },
-        },
-    },
+            }
+        }
+    }
 ];
 
 const resultOptions = {
@@ -80,7 +80,7 @@ const resultOptions = {
     },
     "C": {
         image: "BT.PNG"
-    },
+    }
 };
 
 let currentQuestion = 0;
