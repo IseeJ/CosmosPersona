@@ -2,7 +2,7 @@
 
 Made by I-see Warisa Jaidee
 
-This project is license and you must not use it without permission!
+This project is licensed and you must not use it without permission!
 
 
 Play at: https://iseej.github.io/CosmosPersona/
