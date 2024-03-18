@@ -1,4 +1,6 @@
 # CosmosPersona
+
+Made my I-see Warisa Jaidee
 for fun :D
 
 Play at: https://iseej.github.io/CosmosPersona/
