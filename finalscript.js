@@ -6,7 +6,7 @@ const questions = [
         image: "images/Q1.gif",
         answers: {
             F: {
-                text: "I'm just so tired and can't wait to go home. Why do everyday feel the same...",
+                text: "I'm just so tired and can't wait to go home. Why does every day feel the same...",
                 scores: { T: 0, F: +1 },
             },
             T: {
@@ -16,7 +16,7 @@ const questions = [
         },
     },
     {
-        question: "Q2/12: You look outside the windows, seems like it's going to rain soon. Suddenly everything turns into darkness!!",
+        question: "Q2/12: You look out the windows, seems like it's going to rain soon. Suddenly everything turns into darkness!!",
         image: "images/Q2.gif",
         answers: {
             J: {
@@ -24,7 +24,7 @@ const questions = [
                 scores: { P: 0, J: +1 },
             },
             P: {
-                text: "*Turn around to see the other's reaction* Should I ask the driver what's going on?",
+                text: "*Turn around to see the others' reaction* Should I ask the driver what's going on?",
                 scores: { P: +1, J: 0 },
             },
         },
@@ -44,7 +44,7 @@ const questions = [
         },
     },
     {
-        question: "Q4/12: Amidst the surprise, your eyes catch something drifting pass the window.",
+        question: "Q4/12: Amidst the surprise, your eyes catch something drifting past the window.",
         image: "images/Q4.gif",
         answers: {
             F: {
@@ -128,11 +128,11 @@ const questions = [
         },
     },
     {
-        question: "Q10/12: You run pass the gift shop. Looks like you get rid of them. It wouldn't hurt to get some souvenirs, right?",
+        question: "Q10/12: You run past the gift shop. Looks like you got rid of them. It wouldn't hurt to get some souvenirs, right?",
         image: "images/Q10.gif",
         answers: {
             F: {
-                text: "Get the Jupiter headphone, wear it to hear people's thoughts!",
+                text: "Get the Jupiter headphones, wear it to hear people's thoughts!",
                 scores: { F: +1, T: 0 },
             },
             T: {
@@ -361,5 +361,3 @@ function restartQuiz() {
 document.getElementById('restart-button').addEventListener('click', restartQuiz);
 
 displayQuestion();
-
-
