@@ -12,8 +12,8 @@ const questions = [
             T: {
                 text: "Should I rest or work first when I get home? Most importantly, what's for dinner?",
                 scores: { T: +1, F: 0 },
-            },
-        },
+            }
+        }
     },
     {
         question: "Q2/12: You look out the windows, seems like it's going to rain soon. Suddenly everything turns into darkness!!",
@@ -26,8 +26,8 @@ const questions = [
             P: {
                 text: "*Turn around to see the others' reaction* Should I ask the driver what's going on?",
                 scores: { P: +1, J: 0 },
-            },
-        },
+            }
+        }
     },
     {
         question: "Q3/12: Before you can do anything, the bus stops and everything around you floats up!",
@@ -40,8 +40,8 @@ const questions = [
             N: {
                 text: "Is this a prank? Am I getting kidnapped by aliens?!",
                 scores: { S: 0, N: +1 },
-            },
-        },
+            }
+        }
     },
     {
         question: "Q4/12: Amidst the surprise, your eyes catch something drifting past the window.",
@@ -54,8 +54,8 @@ const questions = [
             T: {
                 text: "Cats? In space? That's kinda odd... How do they survive out there?!",
                 scores: { T: +1, F: 0 },
-            },
-        },
+            }
+        }
     },
     {
         question: "Q5/12: 'Welcome Aboard!' a small robot appears and annouces, 'We will reach our destination in 5 months 6 days and 2 hours!'",
@@ -68,8 +68,8 @@ const questions = [
             J: {
                 text: "Hey uh...Am I in space? How did I get here? When can I go home?! Why..",
                 scores: { P: 0, J: +1 },
-            },
-        },
+            }
+        }
     },
     {
         question: "Q6/12: The robot just points to the back of the bus which now looks more like inside of a spaceship! What do you want to see first?",
@@ -82,8 +82,8 @@ const questions = [
             E: {
                 text: "Cozy corner with a massaging chair. I need to sit down and process.",
                 scores: { I: +1, E: 0 },
-            },
-        },
+            }
+        }
     },
     {
         question: "Q7/12: On the way back to your seat, you are surrounded by cats! 'Unauthorized passenger detected, CAPTURE CAPTURE!'",
@@ -96,8 +96,8 @@ const questions = [
             N: {
                 text: "Ok, I have no idea what's going on. How about we calm down and chat for a bit?",
                 scores: { S: 0, N: +1 },
-            },
-        },
+            }
+        }
     },
     {
         question: "Q8/12: Suddenly, the robot glides in, it whispers something to the cats that makes them stop.",
@@ -110,8 +110,8 @@ const questions = [
             I: {
                 text: "HA! That's right! Back off, cats! Am I safe to go now?!",
                 scores: { E: 0, I: +1 },
-            },
-        },
+            }
+        }
     },
     {
         question: "Q9/12: The robot transforms into a giant vacuum cleaner, the cats use it to point at you!",
@@ -124,8 +124,8 @@ const questions = [
             P: {
                 text: "Run in random direction, confuse them, blend in with the crowd!",
                 scores: { J: 0, P: +1 },
-            },
-        },
+            }
+        }
     },
     {
         question: "Q10/12: You run past the gift shop. Looks like you got rid of them. It wouldn't hurt to get some souvenirs, right?",
@@ -138,9 +138,8 @@ const questions = [
             T: {
                 text: "Get the Mars watch, turn it and you can time travel!",
                 scores: { F: 0, T: +1 },
-            },
-        },
-
+            }
+        }
     },
     {
         question: "Q11/12: The giant vacuum cleaner suddenly emerges in front of you! You're sucked into its vortex!!!",
@@ -153,8 +152,8 @@ const questions = [
             N: {
                 text: "I'll find the way out! Maybe there are some secret doors! *look around for the way out*",
                 scores: { S: 0, N: +1 },
-            },
-        },
+            }
+        }
     },
     {
         question: "Q12/12: After a moment of darkness, you find yourself back in the bus. 'Are you alright?' the ticket inspector asks",
@@ -167,8 +166,8 @@ const questions = [
             E: {
                 text: "You won't believe it...I think I just had the wildest dream ever! *tell him about your space adventure*",
                 scores: { E: +1, I: 0 },
-            },
-        },
+            }
+        }
     },
     {
         question: "When you look up again, the inspector's already gone. You glance outside the window, darkness creeps in as the bus enters another tunnel...",
@@ -179,9 +178,9 @@ const questions = [
             },
             U: {
                 text: "Oh no...Do I have to go through this again?",
-            },
-        },
-    },
+            }
+        }
+    }
 ];
 
 const resultOptions = {
@@ -232,8 +231,7 @@ const resultOptions = {
     },
     "ENTJ": {
         image: "16rocket.png"
-    },
-
+    }
 };
 
 let currentQuestion = 0;
