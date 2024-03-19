@@ -4,8 +4,7 @@ Made by I-see Warisa Jaidee
 
 Follow me on instagram: @izonfalzo
 
-Please contact me at izeewj@gmail.com before you clone/fork/modify the code. Those who cloned the repo please take them down. I have moved to my personal site as I’m not comfortable having it here right now. Thank you for your understanding.
-
+Please contact me at izeewj@gmail.com before you clone/fork/modify the code. Those who forked the repo before I have made mine private please kindly take them down. 
 
 Old link: https://iseej.github.io/CosmosPersona/
 
