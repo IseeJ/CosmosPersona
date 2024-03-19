@@ -7,6 +7,7 @@ Follow me on instagram: @izonfalzo
 Please contact me at izeewj@gmail.com before you clone/fork/modify the code. THank you so much!
 
 Old link: https://iseej.github.io/CosmosPersona/
+
 New link: https://supersoft.co.th/isee/index.html
 
 Please do not use my code, arts without permission! 
