@@ -5,7 +5,7 @@ Made by I-see Warisa Jaidee
 
 Follow me on instagram: @izonfalzo
 
-Please contact me at izeewj@gmail.com before you clone/fork/modify the code. Those who forked the repo before I have made mine private please kindly take them down. 
+Please contact me at izeewj@gmail.com before you use the code. Those who forked the repo before I have made mine private please kindly take them down. 
 
 Old link: https://iseej.github.io/CosmosPersona/
 
