@@ -1,4 +1,5 @@
 # CosmosPersona
+Fun personality quiz inspired by MBTI, Innate Personality, and Cake resume.
 
 Made by I-see Warisa Jaidee 
 
