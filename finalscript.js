@@ -128,7 +128,7 @@ const questions = [
         },
     },
     {
-        question: "Q10/12: You run pass the gift shop. Looks like you get rid of them. It wouldn't hurt to get some souvenirs, right?",
+        question: "Q10/12: You run pass the gift shop. Looks like you got rid of them. It wouldn't hurt to get some souvenirs, right?",
         image: "images/Q10.gif",
         answers: {
             F: {
