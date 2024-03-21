@@ -6,7 +6,7 @@ Made by I-see Warisa Jaidee
 Follow me on instagram: @izonfalzo
 
 Please contact me at izeewj@gmail.com before you use the code. Those who forked the repo before I have made mine private please kindly take them down. 
-I appreciated comments/corrections made in the feedback form, but I currently do not accept unsolicited contributions or pull requests. Thank you for your understanding!
+I appreciated comments/corrections made in the feedback form, but I currently do not accept unsolicited contributions or pull requests on here. Thank you for your understanding!
 
 Old link: https://iseej.github.io/CosmosPersona/
 
