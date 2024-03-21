@@ -1,7 +1,7 @@
 # CosmosPersona
 Fun personality quiz inspired by MBTI, Innate Personality, and Cake resume.
 
-Made by I-see Warisa Jaidee 
+Made by I-see WJ
 
 Please contact me at izeewj@gmail.com before you use the code. Those who forked the repo before I have made mine private please kindly take them down. 
 I appreciated comments/corrections made in the feedback form, but I currently do not accept unsolicited contributions or pull requests on here. Thank you for your understanding!
