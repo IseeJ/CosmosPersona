@@ -6,7 +6,7 @@ Made by I-see Warisa Jaidee
 Follow me on instagram: @izonfalzo
 
 Please contact me at izeewj@gmail.com before you use the code. Those who forked the repo before I have made mine private please kindly take them down. 
-I appreciated those who made pull request to suggest editing but I don't plan to make further edits toi this project so the incoming requests will be closed, thank you!
+I appreciated those who made pull request to suggest editing but I don't plan to make further edits to this project so any incoming request will be rejected, thank you for your understanding!
 
 Old link: https://iseej.github.io/CosmosPersona/
 
