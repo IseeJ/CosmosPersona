@@ -17,7 +17,7 @@
             <script>
                 function checkPassword() {
                 var password = prompt("What did you just touch?!");
-                var inputPasswordLower = password.toLowerCase();
+                var inputPasswordLower = password.toLowerCase().trim();
                 var validPasswordLower = "meteorite";
         
                 if (inputPasswordLower === validPasswordLower) {
