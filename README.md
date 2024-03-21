@@ -3,7 +3,7 @@ Fun personality quiz inspired by MBTI, Innate Personality, and Cake resume.
 
 Made by I-see Warisa Jaidee 
 
-Follow me on instagram: @izonfalzo
+Follow me on instagram: [@izonfalzo](https://www.instagram.com/izonfalzo)
 
 Please contact me at izeewj@gmail.com before you use the code. Those who forked the repo before I have made mine private please kindly take them down. 
 
