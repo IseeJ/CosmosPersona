@@ -44,7 +44,7 @@ const questions = [
         },
     },
     {
-        question: "Q4/12: Amidst the surprise, your eyes catch something drifting pass the window.",
+        question: "Q4/12: Amidst the surprise, your eyes catch something drifting past the window.",
         image: "images/Q4.gif",
         answers: {
             F: {
@@ -128,7 +128,7 @@ const questions = [
         },
     },
     {
-        question: "Q10/12: You run pass the gift shop. Looks like you get rid of them. It wouldn't hurt to get some souvenirs, right?",
+        question: "Q10/12: You run past the gift shop. Looks like you got rid of them. It wouldn't hurt to get some souvenirs, right?",
         image: "images/Q10.gif",
         answers: {
             F: {
