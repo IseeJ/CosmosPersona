@@ -6,7 +6,7 @@ const questions = [
         image: "images/Q1.gif",
         answers: {
             F: {
-                text: "I'm just so tired and can't wait to go home. Why do everyday feel the same...",
+                text: "I'm just so tired and can't wait to go home. Why does everyday feel the same...",
                 scores: { T: 0, F: +1 },
             },
             T: {
