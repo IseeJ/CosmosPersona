@@ -58,7 +58,7 @@ const questions = [
         },
     },
     {
-        question: "Q5/12: 'Welcome Aboard!' a small robot appears and annouces, 'We will reach our destination in 5 months 6 days and 2 hours!'",
+        question: "Q5/12: 'Welcome Aboard!' a small robot appears and announces, 'We will reach our destination in 5 months 6 days and 2 hours!'",
         image: "images/Q5.gif",
         answers: {
             P: {
