@@ -73,25 +73,6 @@
             height: auto;
             display: block;
         }
-        a {
-            font-size: 20px;
-            color: #4b2d2d; /* Change to the desired color */
-        }
-
-        a:hover {
-            color: #ffffff; /* Change to the desired color */
-        }
-
-
-        a.no-underline {
-            color: #000000; /* Change to the desired color */
-            text-decoration: none;
-        }
-
-        a.no-underline:hover {
-            color: #000000; /* Change to the desired color */
-            text-decoration: none;
-        }
         footer {
             text-align: center;
         }
@@ -102,6 +83,21 @@
         }
         p1{
             font-size: 15px;
+        }
+        a {
+            font-size: 20px;
+            color: #4b2d2d; /* Change to the desired color */
+        }
+        a:hover {
+            color: #ffffff; /* Change to the desired color */
+        }
+        a.no-underline {
+            color: #000000; /* Change to the desired color */
+            text-decoration: none;
+        }
+        a.no-underline:hover {
+            color: #000000; /* Change to the desired color */
+            text-decoration: none;
         }
         .search-container {
             width: 80%;
@@ -190,8 +186,12 @@
                 case "meteorite":
                     window.location.href = "egg.html";
                     break;
+
                 case "izonfalzo":
-                     resultDescription.innerText = "A super cool person, in my opinion...:D"; 
+                    notFoundMessage.style.display = "none";
+                    resultContainer.style.display = "block";
+                    resultDescription.style.display = "block";
+                    resultDescription.innerText = "A very cool human, in my opinion...:D"; 
                     break;
                 default:
                     notFoundMessage.style.display = "block";
