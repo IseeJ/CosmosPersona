@@ -174,6 +174,11 @@
             var resultDescription = document.getElementById("result-description");
             var notFoundMessage = document.getElementById("not-found");
 
+            resultContainer.style.display = "none";
+            resultImage.style.display = "none";
+            resultDescription.style.display = "none";
+            notFoundMessage.style.display = "none";
+
             switch (searchInput) {
                 case "meteorite":
                     window.location.href = "egg.html";
