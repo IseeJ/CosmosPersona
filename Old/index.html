@@ -212,9 +212,17 @@
                     notFoundMessage.style.display = "none";
                     resultContainer.style.display = "block";
                     resultDescription.style.display = "block";
-                    resultDescription.innerText = "Information disclosed. Origin: unknown. Danger level: R U N."; 
+                    resultDescription.innerText = "Information disclosed. Origin: unknown. R U N"; 
                     resultImage.style.display = "block";
                     resultImage.src = "images/BE4.PNG"; 
+                    break;
+                case "egg":
+                    notFoundMessage.style.display = "none";
+                    resultContainer.style.display = "block";
+                    resultDescription.style.display = "block";
+                    resultDescription.innerText = "...? You dropped this?"; 
+                    resultImage.style.display = "block";
+                    resultImage.src = "images/search.PNG"; 
                     break;
                 default:
                     notFoundMessage.style.display = "block";
