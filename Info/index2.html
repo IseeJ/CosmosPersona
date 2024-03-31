@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap">
+    <style>
+        body {
+            font-family: 'Comfortaa', sans-serif;
+            background-color: #ffb997;
+            font-size: 20px;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 100%;
+            overflow-y: auto;
+            height: 600px; 
+        }
+        .trigger {
+            position: absolute; 
+            top: 30px; 
+            left: 90%; 
+            transform: translateX(-75%); 
+            padding: 20px 30px;
+            background-color: transparent;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .popup {
+            position: absolute; 
+            left: 70%; 
+            transform: translateX(-30%);
+            display: none; 
+            z-index: 999;
+            background-color: transparent;
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .trigger:hover + .popup {
+            display: block;
+        }
+        .popup img {
+            max-width: 200px;
+            max-height: 200px;
+        }
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 10px;
+            padding: 10px;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        footer {
+            text-align: center;
+        }
+  
+        footer p {
+            font-size: 10px; 
+            color: #843b62;
+        }
+        p1{
+            font-size: 15px;
+        }
+
+        a{
+            font-size: 15px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #ffb997; /* Change to the desired color */
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>About Cosmos Persona</h1>
+    <div class="quiz-container">
+        <div class="start-page" id="start-page">
+            <div class="container">
+                <div class="image-gallery">
+                    <p1>DARK ENERGY: Hypothetical energy, acts as a repulsive force counteracting gravity, causing the expansion of the Universe to <a href="kkkk.html" target="_blank">accelerate.</a></p1>
+                    <img src="../images/1DE.png" alt="Dark Energy">
+                    <br>
+                    <p1>LIGHT CONE: Visual representation of light and information in spacetime. It shows regions accessible in the future and past from a certain event.</p1>
+                    <img src="../images/2light.png" alt="Light Cone">
+                    <br>
+                    <p1>UFO: Unidentified Flying Object, any aerial phenomenon that cannot be identified. UAP: Unidentified aerial phenomena, is UFO's more scientific term coined recently.</p1>
+                    <img src="../images/3UFO.png" alt="UFO">
+                    <br>
+                    <p1>NEBULA: Cloud of gas and dust in space, remnant materials from dying stars and birthplace of new stars.</p1>
+                    <img src="../images/4nebula.png" alt="Nebula">
+                    <br>
+                    <p1>COMET: Celestial body consisting of rocky debris and ice. When it orbits closer to the Sun, its surface is melted by the heat, forming a glowing tail.</p1>
+                    <img src="../images/5comet.png" alt="Comet">
+                    <br>
+                    <p1>SPACETIME: Concept that unifies 3-D space and 1-D time to form a 4-D continuum. One can think of this as a stretchy rubber sheet that can be curved by massive objects.</p1>
+                    <img src="../images/6ST.png" alt="Spacetime">
+                    <br>
+                    <p1>DARK MATTER: Hypothetical matter that doesn't emit light, essential for explaining the Universe's structure. (otherwise we'll be flying apart! <a href="../Old/" target="_blank">look up</a> the rotation curve, it's pretty cool.)</p1>
+                    <img src="../images/7DM.png" alt="Dark Matter">
+                    <br>
+                    <p1>METEORITE: Rock from space, it can be fragment of a comet, asteroid, or meteoroid that survives its journey through the atmosphere and lands on Earth.</p1>
+                    <img src="../images/8met.png" alt="Meteorite">
+                    <br>
+                    <p1>BLACK HOLE: A region in space where gravity is so strong that not even light can escape from it. It can be formed from the collapse of massive stars.</p1>
+                    <img src="../images/9BH.png" alt="Black Hole">
+                    <br>
+                    <p1>SUPERNOVA: Explosion of super massive star as it's dying, releasing an immense amount of energy. It's super bright but only stays for a while.</p1>
+                    <img src="../images/10Sn.png" alt="Supernova">
+                    <br>
+                    <p1>GRAVITY: Force that governs the attraction between objects with mass. It made apple fell on Newton's head! (or Newton's head accelerated at 9.81 m/s² up to the apple, who knows?)</p1>
+                    <img src="../images/11Grav.png" alt="Gravity">
+                    <br>
+                    <p1>COSMIC HAND: Cosmology; remnants of a collapsed giant star, shaped like a hand. Physics; a metaphor for an external force. For example, When adding a new charge to a system, the "cosmic hand" does work opposite in magnitude to the electric field, given that charges start & end at rest.</p1>
+                    <img src="../images/12hand.png" alt="Cosmic Hand">
+                    <br>
+                    <p1>SATELLITE: Object that moves around another object. We mostly use this term to refer to a device sent to space to orbit around an object of interest, it can operate to collect information or for telecommunications purposes.</p1>
+                    <img src="../images/13sat.png" alt="Satellite">
+                    <br>
+                    <p1>THE SUN: The star of our solar system! The Earth and other planets orbit around the Sun, it provides us light and warmth. Sunlight takes 8 minutes to reach earth!</p1>
+                    <img src="../images/14sun.png" alt="The Sun">
+                    <br>
+                    <p1>GALAXY: Systems of stars, gasses, dusts, held together by gravitational attraction. Our solar system is located within the Milky Way galaxy. Galaxies have diverse shapes, colors, and forms, reflecting their varying ages, formations, and evolutionary histories.</p1>
+                    <img src="../images/15gal.png" alt="Galaxy">
+                    <br>
+                    <p1>ROCKET: Vehicle that moves by expelling gases produced by burning fuel. It is used for space travel, satellite launches, and other purposes.</p1>
+                    <img src="../images/16rocket.png" alt="Rocket">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="https://docs.google.com/document/d/1GKvwQOTK8jjRFDShpuLD_w9_VGU_IVxfSglJngvNWLU/edit?usp=sharing" target="_blank" style="font-size: 10px; text-decoration: none;">&copy; 2024 I-see Warisa Jaidee</a>
+    </footer>
+    </div>
+</body>
+</html>
