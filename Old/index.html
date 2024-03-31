@@ -170,8 +170,8 @@
             <button id="search-button" class="search-button">></button>
         </div>
         <div id="result-container">
-            <img id="result-image" src="" alt="Result Image">
             <p id="result-description" style="display: none;"></p>
+            <img id="result-image" src="" alt="Result Image">
         </div>
         <p id="not-found" style="display: none;" >Womp Womp, No results were found. Try different keywords!</p>
     </div>
@@ -179,6 +179,7 @@
     <script>
         document.getElementById("search-button").addEventListener("click", function() {
             var searchInput = document.getElementById("search-input").value.trim().toLowerCase();
+            searchInput = searchInput.split(" ").join(""); 
             var resultContainer = document.getElementById("result-container");
             var resultImage = document.getElementById("result-image");
             var resultDescription = document.getElementById("result-description");
@@ -204,7 +205,7 @@
                     notFoundMessage.style.display = "none";
                     resultContainer.style.display = "block";
                     resultDescription.style.display = "block";
-                    resultDescription.innerText = "Hmmm why are you looking me up? Miss me much? Well, sorry to disappoint you but Bob's personal information is discl..., oh wait! Someone dropped this..."; 
+                    resultDescription.innerText = "Hmmm why are looking me up? Miss me much? Well sorry to disappoint you but Bob's personal information is disclosed, oh wait...look what I found!"; 
                     resultImage.style.display = "block";
                     resultImage.src = "images/ID.PNG"; 
                     break;
@@ -224,6 +225,15 @@
                     resultImage.style.display = "block";
                     resultImage.src = "images/search.PNG"; 
                     break;
+                case "rotationcurve":
+                    notFoundMessage.style.display = "none";
+                    resultContainer.style.display = "block";
+                    resultDescription.style.display = "block";
+                    resultDescription.innerText = "Rotation Curve represents the rotational velocity of a galaxy at different radial distance from its center. It is crucial for understanding the distribution of mass within a galaxy. Most importantly, it serves as a supporting evidence for the presence of Dark Matter! The measured galaxy rotation curve shows a constant rotational velocity, independent of the distance from its center. This contradicts to Newtonian's predition which assume the visible matter is centrally located. Thus, leading to the conclusion that there exists more mass than we actually see... *drumrolls* DARK MATTER!!! WOW you're a reader, aren't you?! If you have scrolled down this far, you deserve a prize... TAAA DAAA!!!"; 
+                    resultImage.style.display = "block";
+                    resultImage.src = "images/BE5.PNG"; 
+                    break;
+            
                 default:
                     notFoundMessage.style.display = "block";
             }
@@ -235,4 +245,5 @@
     </footer>
 </body>
 </html>
+
 
