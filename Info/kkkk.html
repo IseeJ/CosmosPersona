@@ -6,12 +6,125 @@
     <title>EGG</title>
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap">
+    <style>
+        /* CSS to hide the image container initially */
+        #image-container {
+            display: none;
+        }
+        .do-not-press-button {
+            font-family: 'Comfortaa', sans-serif;
+            background-color: #f46b6b; 
+            color: #fff;
+            padding: 10px; 
+            border: none;
+            border-radius: 50%; 
+            cursor: pointer;
+            font-size: 14px; 
+            margin-top: 10px;
+            display: inline-block;
+            text-decoration: none; 
+            width: 100px; 
+            height: 100px;
+            line-height: 1.5; 
+            text-align: center; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        }
 
-    <body>
-        <div class="quiz-container">
-            <div class="start-page" id="start-page">
-            <img src="../images/BE3.PNG" width="400">
-            <h1>Egg #3 found!</h1>
+        .do-not-press-button:hover,
+        .button-pressed {
+            background-color: #bd2828; 
+        }
+
+        .dark-color {
+            background-color: #bd2828 !important; 
+        }
+
+        #error-message {
+            font-weight: bold;
+            display: none; 
+            
+
+        .buttons-container {
+            max-width: 400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+    </style>
 </head>
+<body>
+    <br>
+    <div class="quiz-container">
+        <div class="start-page" id="start-page">
+            <h>Cosmic Calendar</h>
+            <!--img src="../images/BE3.PNG" width="400" alt="Egg Image"-->
+            <div class="buttons-container">
+                <button id="button1" class="do-not-press-button">Sun</button>
+                <button id="button2" class="do-not-press-button">Fish</button>
+                <button id="button3" class="do-not-press-button" style="font-size: 12px">First Life</button>
+                <button id="button4" class="do-not-press-button">Insects</button>
+                <button id="button5" class="do-not-press-button">Big Bang</button>
+                <button id="button6" class="do-not-press-button">Dinosaurs</button>
+                <button id="button7" class="do-not-press-button">Humans</button>
+                <button id="button8" class="do-not-press-button">Milky Way</button>
+                <button id="button9" class="do-not-press-button">Birds</button>
+            </div>
+        </div>
+        <div id="image-container">
+            <img src="../images/BE3.PNG" width="400" alt="Egg Image">
+            <h1>Egg #3 found!</h1>
+            <p>Woahh! Good Job!!</p>
+        </div>
+        <p id="error-message"></p>
+    </div>
+
+    <script>
+
+        const correctSequence = ["button5", "button8", "button1", "button3", "button2", "button4", "button6", "button9", "button7"];
+
+
+        const buttons = document.querySelectorAll("button");
+        const errorMessage = document.getElementById("error-message");
+
+
+        let userSequence = [];
+
+
+        buttons.forEach(button => {
+            button.addEventListener("click", function() {
+
+                if (userSequence.includes(button.id) || document.getElementById("image-container").style.display === "block") {
+                    return;
+                }
+                
+                userSequence.push(button.id);
+                if (userSequence.length === correctSequence.length) {
+                    if (arraysMatch(userSequence, correctSequence)) {
+                        document.getElementById("image-container").style.display = "block";
+                        errorMessage.textContent = "";
+                    } else {
+    
+                        errorMessage.textContent = "Tsk Tsk Tsk...Try again";
+                        errorMessage.style.display = "block"; 
+                    }
+                }
+
+
+                button.classList.add("button-pressed");
+
+                button.disabled = true;
+            });
+        });
+
+
+        function arraysMatch(arr1, arr2) {
+            if (arr1.length !== arr2.length) return false;
+            for (let i = 0; i < arr1.length; i++) {
+                if (arr1[i] !== arr2[i]) return false;
+            }
+            return true;
+        }
+    </script>
 </body>
 </html>
