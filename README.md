@@ -16,4 +16,3 @@ Modification, redistribution of this code is not allowed.
 Commercial use of this code, arts is prohibited. Please refer to the permission guidelines in the License file.
 
 This is my first project, it took me nearly a year to finish *sobs* I put in a lot of effort and I hope everyone like it!!
-Feel free to contact me izeewj@gmail.com for more details.
