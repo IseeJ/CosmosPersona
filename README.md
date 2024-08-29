@@ -5,7 +5,6 @@ Fun personality quiz inspired by [MBTI](https://www.16personalities.com/free-per
 Made by I-see WJ
 
 Please contact me at izeewj@gmail.com before you clone/fork this repository. 
-I appreciated comments/corrections made in the feedback form, but I currently do not accept unsolicited contributions or pull requests on here. Thank you for your understanding!
 
 Current link: https://iseej.github.io/CosmosPersona/ (last updated 3/27/24)
 
