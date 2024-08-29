@@ -9,8 +9,6 @@ I appreciated comments/corrections made in the feedback form, but I currently do
 
 Current link: https://iseej.github.io/CosmosPersona/ (last updated 3/27/24)
 
-Alternative link (not updated): https://supersoft.co.th/isee/index.html
-
 Please do not use my code, arts without permission! 
 Modification, redistribution of this code is not allowed.
 Commercial use of this code, arts is prohibited. Please refer to the permission guidelines in the License file.
