@@ -1,5 +1,5 @@
 # CosmosPersona
-Fun personality quiz inspired by MBTI, Innate Personality Traits, and [Cake resume](https://www.cakeresume.com/campaigns/what-cake-r-u/en?locale=en).
+Fun personality quiz inspired by MBTI, [Innate Personality Traits](https://typeofyou.alltheway.tw/en/), and [Cake resume](https://www.cakeresume.com/campaigns/what-cake-r-u/en?locale=en).
 
 
 Made by I-see WJ
