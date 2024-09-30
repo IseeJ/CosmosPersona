@@ -13,7 +13,7 @@ Modification, redistribution of this code is not allowed.
 Commercial use of this code, arts is prohibited. Please refer to the permission guidelines below.
 
 
-Copyright (c) 2024 I-see Warisa Jaidee
+Copyright &copy; 2024 I-see Warisa Jaidee
 
 Please contact me at izeewj@gmail.com for more details!
 
