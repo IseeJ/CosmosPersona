@@ -3,15 +3,11 @@ Fun personality quiz inspired by [MBTI](https://www.16personalities.com/free-per
 
 
 Made by I-see Warisa Jaidee
-
-Please contact me at izeewj@gmail.com before you clone/fork this repository. 
-
 Current link: https://iseej.github.io/CosmosPersona/ (last updated 3/27/24)
 
 Please do not use my code, arts without permission! 
 Modification, redistribution of this code is not allowed.
 Commercial use of this code, arts is prohibited. Please refer to the permission guidelines below.
-
 
 Copyright &copy; 2024 I-see Warisa Jaidee
 
