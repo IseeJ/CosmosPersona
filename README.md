@@ -9,9 +9,13 @@ Please do not use my code, arts without permission!
 Modification, redistribution of this code is not allowed.
 
 Copyright &copy; 2024-2025 I-see Warisa Jaidee
+All Rights Reserved.
 
-1. Commercial use of this project is NOT allowed under any circumstances
-2. Do NOT use my designs, characters, artworks without my permission.
+1. Modification, redistribution of this code is not allowed.
+2. Commercial use of this project is not allowed under any circumstances.
+3. Please do not use my code without my permission.
+4. All of my art is copyrighted, please do not use them without my permission.
+
 
 Thank you for your understanding!
 
