@@ -12,3 +12,14 @@ Copyright &copy; 2024 I-see Warisa Jaidee
 
 1. Commercial use of this project is NOT allowed under any circumstances
 2. Do NOT use my designs, characters, artworks without my permission.
+
+Thank you for your understanding!
+
+<img src="https://github.com/IseeJ/LovePawsona/blob/308991fbb02d7805c0909d145a139db1edc29837/IMG/Heh/Untitled_Artwork1654.gif" width="100"><img src="https://github.com/IseeJ/LovePawsona/blob/308991fbb02d7805c0909d145a139db1edc29837/IMG/Heh/Untitled_Artwork1654.gif" width="100"><img src="https://github.com/IseeJ/LovePawsona/blob/308991fbb02d7805c0909d145a139db1edc29837/IMG/Heh/Untitled_Artwork1654.gif" width="100">
+<img src="https://github.com/IseeJ/LovePawsona/blob/308991fbb02d7805c0909d145a139db1edc29837/IMG/Heh/Untitled_Artwork1654.gif" width="100"><img src="https://github.com/IseeJ/LovePawsona/blob/308991fbb02d7805c0909d145a139db1edc29837/IMG/Heh/Untitled_Artwork1654.gif" width="100"><img src="https://github.com/IseeJ/LovePawsona/blob/308991fbb02d7805c0909d145a139db1edc29837/IMG/Heh/Untitled_Artwork1654.gif" width="100">
+
+
+## My corner
+
+Project Started: ~September, 2023
+Project Launched: March 15, 2024
