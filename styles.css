@@ -339,3 +339,31 @@ footer p {
     cursor: pointer;
     outline: none;
 }
+
+
+
+/*Scroll design change.*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f3e3c2; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d5428c; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a5356d; 
+}
+
+/* Handle on Click */
+::-webkit-scrollbar-thumb:active {
+  background: #832b57;
+}
