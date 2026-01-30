@@ -15,7 +15,7 @@ All Rights Reserved.
 2. Commercial use of this project is not allowed under any circumstances.
 3. Please do not use my code without my permission.
 4. All of my art is copyrighted, please do not use them without my permission.
-5. Updated on 01/29/26: personal use is allowed, but please always include this for credit! Thank you!
+5. Updated on 01/29/26: personal use of the code is allowed, but please always include this for credit! Thank you!
 
 Thank you for your understanding!
 
