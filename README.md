@@ -6,7 +6,6 @@ Made by I-see Warisa Jaidee
 Current link: https://iseej.github.io/CosmosPersona/ (last updated 3/27/24)
 
 Please do not use my code, arts without permission! 
-Modification, redistribution of this code is not allowed.
 
 Copyright &copy; 2024-2026 I-see Warisa Jaidee
 All Rights Reserved.
