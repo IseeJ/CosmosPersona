@@ -8,14 +8,14 @@ Current link: https://iseej.github.io/CosmosPersona/ (last updated 3/27/24)
 Please do not use my code, arts without permission! 
 Modification, redistribution of this code is not allowed.
 
-Copyright &copy; 2024-2025 I-see Warisa Jaidee
+Copyright &copy; 2024-2026 I-see Warisa Jaidee
 All Rights Reserved.
 
 1. Modification, redistribution of this code is not allowed.
 2. Commercial use of this project is not allowed under any circumstances.
 3. Please do not use my code without my permission.
 4. All of my art is copyrighted, please do not use them without my permission.
-
+5. Updated on 01/29/26: personal use is allowed, but please always include this for credit! Thank you!
 
 Thank you for your understanding!
 
