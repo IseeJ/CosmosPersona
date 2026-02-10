@@ -92,6 +92,11 @@ p1{
 }
 }
 
+@media (hover: none) {
+    .large-rectangular:hover {
+        filter: none;
+    }
+}
 
 
 #result {
