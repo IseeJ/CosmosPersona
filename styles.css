@@ -85,10 +85,13 @@ p1{
     cursor: pointer;
 }
 
+ @media (hover: hover) and (pointer: fine) {
 .large-rectangular:hover {
     background-color: #843b62;
     color: #fff;
 }
+}
+
 
 
 #result {
